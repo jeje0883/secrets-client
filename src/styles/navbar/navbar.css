@@ -1,8 +1,6 @@
 nav {
-    /* background-color: black; */
     position: sticky;
     border: 2px solid black;
-    display: flex;
     padding: 2px 10px;
 }
 
@@ -10,9 +8,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -20,44 +16,11 @@ li {
     margin: 0px 10px;
 }
 
+.auto-left-margin {
+    margin-left: auto;
+}
 
-.icon-container {
+.submit-icon {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s;
-}
-
-.icon-container:hover {
-    background-color: lightgray !important; /* For testing only */
-}
-
-.secret {
-    width: 80%; /* Make the image smaller than the container */
-    height: 80%;
-    background-image: url('../../../public/images/secret-symbol.png'); /* Absolute path */
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.search {
-    width: 80%; /* Make the image smaller than the container */
-    height: 80%;
-    background-image: url('../../../public/images/search.png'); /* Absolute path */
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.profile {
-    width: 80%; /* Make the image smaller than the container */
-    height: 80%;
-    background-image: url('../../../public/images/user-icon.png'); /* Absolute path */
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }

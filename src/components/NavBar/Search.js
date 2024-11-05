@@ -11,9 +11,9 @@ export default function Search() {
 
     return (
         <>
-            <li className="icon-container" onClick={handleSearchClick}>
-                <div className="search"></div>
-            </li>
+            <div className="search-icon-container" onClick={handleSearchClick}>
+                <img className='search-icon' src={'/images/search.png'} alt="search" />
+            </div>
             {isSearching && (
                 <input
                     type="text"
