@@ -1,0 +1,80 @@
+/* Scoped Container */
+.create-post-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+.create-post-header {
+    font-size: 1.5em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Form Fields */
+.create-post-form div {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.create-post-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Fields */
+.create-post-form input[type="text"],
+.create-post-form textarea,
+.create-post-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Textarea */
+.create-post-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+/* Dropdown */
+.create-post-form select {
+    cursor: pointer;
+}
+
+/* Submit Button */
+.create-post-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-post-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Focus States */
+.create-post-form input:focus,
+.create-post-form textarea:focus,
+.create-post-form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

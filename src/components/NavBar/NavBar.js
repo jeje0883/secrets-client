@@ -2,6 +2,7 @@ import Search from '../../components/NavBar/Search';
 import Login from '../../components/NavBar/Login';
 import Menu from '../../components/NavBar/Menu';
 import Profile from '../../components/NavBar/Profile';
+import Post from '../../components/NavBar/Post';
 import '../../styles/navbar/navbar.css';
 // import { Modal } from 'react';
 
@@ -10,8 +11,10 @@ export default function NavBar() {
         <nav>
             <ul>
                 <Menu/>
+                <a id='secrets' href='/'>SECRETS</a>
+                <a href='/submit'><Post/></a>
 
-                <li><a href="/submit"><img className='submit-icon' src='/images/secret-icon.png'></img></a></li>
+                {/* <li><a href="/submit"><img className='submit-icon' src='/images/secret-icon.png'></img></a></li> */}
                 {/* <li><a href="/about">Trending</a></li>
                 <li><a href="/contact">Fresh</a></li> */}
                 <Search/>
